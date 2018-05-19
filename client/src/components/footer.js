@@ -31,8 +31,8 @@ export default props =>{
           </div>
           <div className="footer-copyright">
             <div className="container">
-            © 2018
-            <div className="right">Built with React and MaterializeCSS</div> 
+            © 2018 William Xu
+            <div className="right">Powered by React, MaterializeCss, and <span><i class="fa fa-heart" style={{color : 'red'}}></i></span></div> 
             </div>
           </div>
         </section>

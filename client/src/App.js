@@ -5,10 +5,10 @@ import '../node_modules/materialize-css/dist/js/materialize.min.js';
 import './App.css';
 
 import NavBar from './components/navbar';
-import LandingPage from './components/landing_page';
+import LandingPage from './components/landing_2';
 import Work from './components/work';
 import About from './components/about';
-import Skills from './components/skills';
+import Skills from './components/skills_2';
 import Contact from './components/contact';
 import Footer from './components/footer';
 

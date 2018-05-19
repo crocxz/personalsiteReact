@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import logo from '../assets/images/landing/wxlogo.png';
 
 export default class NavBar extends Component {
     constructor(props){
@@ -78,12 +79,14 @@ export default class NavBar extends Component {
             navbar = (
                 <nav>
                     <div ref={this.setWrapperRef} className="nav-wrapper container">
-                    <a className='nav-text-name center brand-logo'href="#">Bruce</a>
+                   
+                    <a className='logo-nav' href="#"><img className="logo" src={logo} /> </a>
                     <a className="button-collapse" onClick={this.openNav}><i className="material-icons">menu</i></a>
                     <ul className={`side-nav ${this.state.open ? 'visible': 'hidden' }`} tabIndex="0" onBlur={ this.closeNav }>
                         <li><a className='nav-text' onClick={this.closeNav} onMouseEnter={this.closeHover.bind(this)} onMouseLeave={this.closeNotHover.bind(this)}><i className={`${closeHover ? "white-color":"black-color"} material-icons left sideNavClose`}>close</i></a></li>
+                        
+                        <li><a className='nav-text' onClick={this.closeNav} href="#about">Bio</a></li>
                         <li><a className='nav-text' href="#work">Work</a></li>
-                        <li><a className='nav-text' onClick={this.closeNav} href="#about">About</a></li>
                         <li><a className='nav-text' onClick={this.closeNav} href="#skills">Skills</a></li>
                         <li><a className='nav-text' onClick={this.closeNav} href="#contact">Contact</a></li>
                     </ul>
@@ -94,10 +97,10 @@ export default class NavBar extends Component {
             navbar = (
                 <nav>
                     <div className="nav-wrapper container">
-                    <a className='nav-text-name' href="#">Bruce</a>
+                    <a className='logo-nav' href="#"><img className="logo" src={logo} /> </a>
                     <ul className="right hide-on-sm-and-down">
+                        <li><a className='nav-text' href="#about">Bio</a></li>
                         <li><a className='nav-text' href="#work">Work</a></li>
-                        <li><a className='nav-text' href="#about">About</a></li>
                         <li><a className='nav-text' href="#skills">Skills</a></li>
                         <li><a className='nav-text' href="#contact">Contact</a></li>
                     </ul>

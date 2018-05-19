@@ -4,7 +4,7 @@ import Card from './card';
 import workDataArray from '../assets/data/work_data';
 
 
-export default props=>{
+export default props=> {
     
     const cardList = workDataArray.map((item, index) =>{
         return(

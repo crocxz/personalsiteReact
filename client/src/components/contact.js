@@ -163,7 +163,7 @@ export default class Contact extends Component {
         <div className="container">
         <h3 className='white-color'>Contact Me</h3>
             <hr className='white-color sub'/>
-            <p className='text-faded contact'>The world becomes a better place when people truly express themselves.</p>
+            <p className='text-faded contact'>Working on something interesting?  Think we may have a fit? I'm interested in you too :)</p>
             <div className="row">
             
         <form className="col s12" onSubmit={this.sendData}>
