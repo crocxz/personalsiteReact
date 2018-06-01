@@ -1,7 +1,7 @@
 import React from 'react';
 import './landing.css';
 
-export default props =>{
+export default props => {
 
     return(
         <section id='skills'>
@@ -11,6 +11,7 @@ export default props =>{
              <div class="content-header">
                <a class="anchor" name="skills"></a>
                <h2>Skills</h2>
+               
              </div>
              <div class="content-body">
                <ul class="ul-skills">
@@ -23,6 +24,7 @@ export default props =>{
                  <li class="li-skills">Bootstrap</li>
                  <li class="li-skills">MySQL</li>
                  <br/>
+                 
                  <li class="li-skills">C#</li>
                  <li class="li-skills">MSSQL</li>
                  <li class="li-skills">MongoDB</li>
