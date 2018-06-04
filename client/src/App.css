@@ -4,14 +4,14 @@
   }
   
 @font-face {
-    font-family: 'Minecraft';
-    src: url('/assets/fonts/fsex300-webfont.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-     url('/assets/fonts/fsex300-webfont.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+    font-family: 'UbuntuMono';
+    src:  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+     url('/assets/fonts/UbuntuMono-R.tff') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
   }  
 
 @font-face {
-    font-family: 'Minecraft';
-    src: url('./assets/fonts/Minecraft.ttf') format('truetype');
+    font-family: 'UbuntuMono';
+    src: url('/assets/fonts/UbuntuMono-R.tff') format('truetype');
   }
 
 h1,
@@ -20,7 +20,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Minecraft', 'Montserrat', sans-serif;
+    font-family: 'UbuntuMono', 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
@@ -52,7 +52,7 @@ nav {
     color: #127da1;
     font-size: 1.5rem;
     text-transform: uppercase;
-    font-family: 'Minecraft', 'Helvetica Neue', 'Montserrat', sans-serif;
+    font-family: 'UbuntuMono', sans-serif;
     font-weight: bold;
 }
 
@@ -93,7 +93,7 @@ img {
 .nav-text {
     color: white;
     text-transform: uppercase;
-    font-family: 'Minecraft', 'Helvetica Neue', 'Montserrat', sans-serif;
+    font-family: 'UbuntuMono', 'Helvetica Neue', 'Montserrat', sans-serif;
     font-weight: bold;
 }
 
@@ -129,7 +129,7 @@ hr {
     max-width: 75px;
     height: 8px;
     border-radius: 2px;
-    background-color: white;
+    background-color: black;
     margin-top: 3%;
     margin-bottom: 3%;
 }
@@ -198,7 +198,7 @@ hr.sub {
     filter: brightness(125%);
 }
 #work {
-    background-color: #212529;
+    background-color: white;
 }
 .work-img {
     object-fit: cover;

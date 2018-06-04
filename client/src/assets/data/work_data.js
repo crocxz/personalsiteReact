@@ -42,5 +42,29 @@ export default [
         codeLink: "https://github.com/crocxz/ripepotatoes",
         demoLink: ""
     },
+    {
+        name: 'Waldo',
+        info: 'A local startup aiming to disrupt the ride share and food delivery markets with their innovative approaches and services. I worked with the founders to bring their vision to life prototyping the UI and UX, modelling all core features of the app including the primary rideshare and food delivery functionalities and the app\'s animations, aesthetic, and feel.',
+        img: environmindful,    
+        alt: 'Environmindful',
+        codeLink: "https://github.com/crocxz/ripepotatoes",
+        demoLink: ""
+    },
+    {
+        name: 'RTSP Client',
+        info: 'A local startup aiming to disrupt the ride share and food delivery markets with their innovative approaches and services. I worked with the founders to bring their vision to life prototyping the UI and UX, modelling all core features of the app including the primary rideshare and food delivery functionalities and the app\'s animations, aesthetic, and feel.',
+        img: environmindful,    
+        alt: 'Environmindful',
+        codeLink: "https://github.com/crocxz/ripepotatoes",
+        demoLink: ""
+    },
+    {
+        name: 'MEAN Stack Hotel',
+        info: 'A local startup aiming to disrupt the ride share and food delivery markets with their innovative approaches and services. I worked with the founders to bring their vision to life prototyping the UI and UX, modelling all core features of the app including the primary rideshare and food delivery functionalities and the app\'s animations, aesthetic, and feel.',
+        img: environmindful,    
+        alt: 'Environmindful',
+        codeLink: "https://github.com/crocxz/ripepotatoes",
+        demoLink: ""
+    },
 
 ];

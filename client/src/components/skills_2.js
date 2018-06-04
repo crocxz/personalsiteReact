@@ -25,11 +25,13 @@ export default props => {
                  <li class="li-skills">MySQL</li>
                  <br/>
                  
+
                  <li class="li-skills">C#</li>
-                 <li class="li-skills">MSSQL</li>
+                 <li class="li-skills">R</li>
                  <li class="li-skills">MongoDB</li>
                  <li class="li-skills">C++</li>
-                 <li class="li-skills">C</li> 
+                 <li class="li-skills">C</li>
+                 <li class="li-skills">Angular</li>
                  <li class="li-skills">Android</li>
                  <li class="li-skills">jQuery</li>
                  
