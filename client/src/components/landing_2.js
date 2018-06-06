@@ -8,15 +8,15 @@ export default props =>{
         <div class="jumbotron-text">
           <h1>Will Xu</h1>
           <p>Dev && Prod</p>
-          <p>Let's make BIG things happen</p>
+          <p>let's make big things happen.</p>
         </div>
         <div class="jumbotron-social">
           <ul class="ul-social">
             <li class="li-social-links">
-              <a class="social" href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+              <a class="social" href="https://github.com/crocxz" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
             </li>
             <li class="li-social-links">
-              <a class="social" href="https://linkedin.com" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+              <a class="social" href="https://linkedin.com/in/williamwlxu" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
             </li>
            
           </ul>

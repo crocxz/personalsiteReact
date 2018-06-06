@@ -53,7 +53,7 @@ nav {
     font-size: 1.5rem;
     text-transform: uppercase;
     font-family: 'UbuntuMono', sans-serif;
-    font-weight: bold;
+    
 }
 
 img {
@@ -94,7 +94,7 @@ img {
     color: white;
     text-transform: uppercase;
     font-family: 'UbuntuMono', 'Helvetica Neue', 'Montserrat', sans-serif;
-    font-weight: bold;
+    
 }
 
 .nav-text:hover,
