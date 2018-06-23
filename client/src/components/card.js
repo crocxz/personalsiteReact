@@ -4,6 +4,7 @@ export default props =>{
     let demoBtn = null;
     let codeBtn = null; 
 
+    // renders buttons if not null
     if(props.demo !== ""){
         demoBtn = (<a className="waves-effect waves-light btn" target="_blank" href={props.demo}><i className="material-icons right">present_to_all</i> demo</a>);
     } 

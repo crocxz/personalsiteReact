@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from '../assets/images/landing/wxlogo.png';
 
 export default class NavBar extends Component {
+    
     constructor(props){
         super(props);
         this.state = {

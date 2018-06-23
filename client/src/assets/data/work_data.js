@@ -6,6 +6,7 @@ import waldo from '../images/work/waldo.png';
 import meanhotel from '../images/work/meanhotel.png';
 import rackbuddy from '../images/work/rackbuddy.jpg';
 import rtsp from '../images/work/rtsp.jpg';
+import blockulator from '../images/work/blockulator.jpg';
 
 //todo: noncoding 
 // A VR education startup concept that I lead to a final round placement and a 4th place finish at Protohack UBC. We aimed to create an alternative form of education with both the benefits of in-person teaching and online courses.
@@ -70,6 +71,14 @@ export default [
         alt: 'Environmindful',
         codeLink: "https://github.com/crocxz/Schoolwork/tree/master/Rack%20Buddy",
         demoLink: ""
+    },
+    {
+        name: 'Blockulator',
+        info: 'Simple calculator with calculation history and material design built in Angular 5. App is responsive, has error catching, uses mathjs for an injection-proof eval(), rounds to 8 decimal places, and is built with angular best practices in mind.  Built in Angular, Angular-Material, Bootstrap.',
+        img: blockulator,    
+        alt: 'Environmindful',
+        codeLink: "https://github.com/crocxz/Blockulator",
+        demoLink: "http://bigcalc.s3-website-us-west-2.amazonaws.com/"
     },
 
 ];

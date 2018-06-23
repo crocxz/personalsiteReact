@@ -46,7 +46,7 @@ export default props =>{
             <h4 className='white-color'>I'm working on</h4>
             <hr className='white-color'/>
             <div className="text-faded left-align"><em>As of: June 1st 2018</em></div>
-            <p className='text-faded'>An IBM HyperLedger project related to the startup idea that I'm working with a teammate from the Bluzelle Decentralized Database Hackathon. Looking to squeeze Vue.js and PostgreSQL into my tech stack as well.  Stay tuned for more!</p>
+            <p className='text-faded'>An IBM HyperLedger project related to the startup idea that I'm working on with a teammate from the Bluzelle Decentralized Database Hackathon. Looking to squeeze Vue.js and PostgreSQL into my tech stack sometime as well.  Stay tuned for more!</p>
             <div className='row'>
             </div>
         </div>
